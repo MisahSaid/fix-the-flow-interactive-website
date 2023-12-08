@@ -48,7 +48,8 @@ ul {
     margin: 0;
 }
 
-li{
+
+.filter-favorieten{
     display: inline-block;
     border-color: black;
     border: 1px solid;
@@ -59,7 +60,6 @@ li{
     padding-right: 1em;
     margin: 0.1em;
 }
-
 
 /* end header styling */
 
@@ -86,6 +86,10 @@ li{
     padding: 1em;
     gap: 1em;
 }
+
+/* .reserveren-hidden{
+    display: none;
+} */
 
 .reserveren h2 {
     grid-area: 1/1/2/3;
@@ -183,7 +187,7 @@ li{
 /* end styling favoriete */
 
 /* aanraders styling */
-.Aanraders {
+.aanraders {
     display: flex;
     flex-direction: column;
     gap: 1em;
@@ -193,42 +197,42 @@ li{
     margin: none;
 }
 
-.Aanraders h2{
+.aanraders h2{
     padding-left: .5em;
 }
 
-.Aanraders h3{
+.aanraders h3{
     padding-left: .5em;
     margin: .1em;
 }
 
-.Aanraders p{
+.aanraders p{
     margin: .1em;
     padding-left: 1em;
     padding-right: 1em;
 }
-.Aanraders .literatuur {
+.aanraders .literatuur {
     background-color: #B7C959; 
     color: var (--white-typo);
     /* grid-area: 2 / 2 / 3 / 3; */
 }
 
-.Aanraders .romantisch { 
+.aanraders .romantisch { 
     color: var (--white-typo);
     /* grid-area: 5 / 2 / 6 / 3; */
 }
 
-.Aanraders .book1 img,
-.Aanraders .book2 img {
+.aanraders .book1 img,
+.aanraders .book2 img {
     max-height: 50px;
 }
 
 
-.Aanraders .title1{
+/* .aanraders .title1{
 }
 
-.Aanraders .brood1{
-}
+.aanraders .brood1{
+} */
 
 .zielijst {
     background-color: #52A2D6;
@@ -301,4 +305,31 @@ button {
     box-shadow: var(--box-shadow);
     color: var( --white-color-typo);
 
+}
+
+
+
+/* js filter favorieten */
+.hidden{
+    display: none;
+}
+
+.section_nav{
+    padding: 1em;
+    margin: 0;
+}
+
+.section_nav button{
+    display: inline-block;
+    border-color: black;
+    border: 1px solid;
+    border-radius: 6em;
+    text-align: center;
+    padding-block: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 0.1em;
+    background-color: none;
+    color: #000;
+    cursor: pointer;
 }
