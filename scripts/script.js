@@ -41,3 +41,5 @@ filterUitlenen.addEventListener("click", () => {
     favorietenSection.classList.toggle("hidden")
     aanradersSection.classList.toggle("hidden")
 })
+
+
