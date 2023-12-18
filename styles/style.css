@@ -65,7 +65,7 @@ ul {
 
 
 /* algemene block/card styling */
-.reserveren, .favoriete, .Aanraders, .lenen{
+.reserveren, .favorieten, .aanraders, .lenen{
     gap: .5em;
     background-color: var( --backgrounnd-color-blokjes); /* Use the defined background color variable */
     box-shadow: var(--box-shadow); /* Use the defined box shadow variable */
@@ -133,14 +133,14 @@ ul {
 
 
 /* start styling favoriete */
-.favoriete {
+.favorieten {
     display: grid;
     grid-template-columns: 3fr 1fr 3fr 1fr;
     grid-template-rows: .5fr 3fr;
     gap: 1em;
 }
 
-.favoriete h2{
+.favorieten h2{
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 1;
@@ -148,7 +148,7 @@ ul {
     padding-left: 1em;
 }
 
-.favoriete .book1{
+.favorieten .book1{
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 1;

@@ -15,7 +15,7 @@ const lenenSection = document.querySelector(".lenen")
 // 3. Eventhandleers om filter mogelijk te maken:
 
 // reserveren filter button
-filterReserveren.addEventListener("click", () => {
+filterReserveren.addEventListener("click", () =>{
     favorietenSection.classList.toggle("hidden")
     aanradersSection.classList.toggle("hidden")
     lenenSection.classList.toggle("hidden")
@@ -29,14 +29,14 @@ filterFavorieten.addEventListener("click", () =>{
 })
 
 // aanraders filter button
-filterAanraders.addEventListener("click", () => {
+filterAanraders.addEventListener("click", () =>{
     reserverenSection.classList.toggle("hidden")
     favorietenSection.classList.toggle("hidden")
     lenenSection.classList.toggle("hidden")
 })
 
 // uitlenen (lenen) filter button
-filterUitlenen.addEventListener("click", () => {
+filterUitlenen.addEventListener("click", () =>{
     reserverenSection.classList.toggle("hidden")
     favorietenSection.classList.toggle("hidden")
     aanradersSection.classList.toggle("hidden")
