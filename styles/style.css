@@ -7,6 +7,7 @@
     --title-font; 'poppins', sans-serif;
     --romance-genre: #D176BD;
     --white-color-typo: #FFFFFF;
+    --lit-genre: #B7C959;
 
 }
 
@@ -109,6 +110,8 @@ ul {
     border-color: black;
     display: inline-block; /* Add this to make it a block-level element */
     /* padding: 0.5em; Optional: Add padding to give some space around the text */
+    margin-right: 1em;
+    max-width: 70%;
 }
 
 
@@ -116,22 +119,27 @@ ul {
     grid-area: 3/2/4/3;
     padding: none;
     margin: .01em;
+    margin-right: 1em;
 }
 
 .reserveren p {
     grid-area: 5/2/6/3;
     margin: .01em;
     padding-right: 1em;
+    margin-right: 1em;
 }
 
 .reserveren .schrijver {
     grid-area: 4/2/5/3;
     margin: .01em;
     padding-right: 1em;
+    margin-right: 1em;s
 }
 
 .reserveren button {
-    grid-area: 6/2/7/3;
+    grid-area: 7/1/8/3;
+    max-width: 93%;
+    padding: 1em;
 }
 /* end styling reserveren */
 
@@ -139,7 +147,7 @@ ul {
 /* v2 styling favorieten */
 .favorieten {
    padding: 1em;
-   margin: 0;
+   /* margin: 0; */
    
 }
 
@@ -161,17 +169,9 @@ ul {
     max-width: 100%; 
     /* for some breating you know! */
     margin-right: 1em;
+    padding: 0;
 }
 
-
-.book-half{
-    max-height: 200px;
-    max-width: 50%;
-}
-
-.hidden-book{
-    display: none;
-}
 
 /* .favorieten .zielijst {
     width: 100%;
@@ -183,7 +183,7 @@ ul {
         display: grid;
         place-items: center;
         width: 100%;
-        padding: .5em;
+        /* padding: .5em; */
         
 
         >button {
@@ -193,6 +193,11 @@ ul {
 
 
     /* background-color: #000; */
+}
+
+.favorieten button{
+    margin-top: 1em;
+    padding: .7em;
 }
 
 /* v3 aanraders styling */
@@ -230,11 +235,12 @@ ul {
 }
 
 .aanraders .zielijst{
-    width: 100%;
+    /* width: 100%; */
+    padding: 1em;
 }
 
 .literatuur{
-    background-color: var(--romance-genre);
+    background-color: var(--lit-genre);
     color: var( --white-color-typo);
 }
 
@@ -269,6 +275,11 @@ ul {
     padding-right: 1em;
 }
 
+.lenen h2{
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
 .lenen p{
     padding: 0;
     margin: 0;
@@ -279,6 +290,10 @@ hr {
     border: 1px solid rgba(0, 0, 0, 0.5); 
     margin: .5em 0; 
     padding-right: 1em;
+}
+
+.lenen .zielijst{
+    padding: .7em;
 }
 
 /* footer */
@@ -319,7 +334,7 @@ button {
     border: none;
     box-shadow: var(--box-shadow);
     color: var( --white-color-typo);
-
+    
 }
 
 
