@@ -2,19 +2,21 @@
 Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
 De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+# Oba Sprint 5 --> last one! 
+Deze sprint ging all about interactieve elementen en het nadenken over user journey! 
 
-## User Story
-<!-- Schrijf de user story waar je aan hebt gewerkt  -->
+![image](https://github.com/MisahSaid/the-client-website/assets/144008464/e84538ef-3454-4ab1-a428-54dc94cf952e)
+
+## User Story 📚
+Oba had eigenlijk 1 mega doel namelijk de 'mijn-omgeving' (dashboard omgeving als je inlogt als oba member) - gebruiksvriendelijker maken. Ook waren er meerdere kleinere user stories en daarvan heb ik de volgende gekozen:
+A: opslaan van boeken en terug kunnen bekijken in een lijst;
+B: aanraders op basis van bijvoorbeeld geleende boeken.
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Ik ben in deze sprint verder gegaan met het fijn tune van de home pagina, het verwerken van de feedback van de vorige sprint (tbt: naamgeving van sections verduidelijken & kijken naar kleuren contrast voor navigatie - iets minder heavy!)
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
+In mijn home pagina is er voornamelijk grid gebruikt, ook wat nieuw is het gebruik van JS (interactief element). Dit is de filterbar onder aan de titel. 
 
 ## Licentie
 
